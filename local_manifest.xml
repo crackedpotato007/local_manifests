@@ -3,6 +3,8 @@
 
     <remote name="inferno0230"
             fetch="https://github.com/OnePlus-Nord-CE4-development" />
+    <remote name="crackedpotato"
+            fetch="https://github.com/crackedpotato007" />
 
     <!-- device tree deps-->
     <project path="device/oneplus/benz" name="android_device_oneplus_benz" revision="lineage-22.1" remote="inferno0230" />
@@ -21,5 +23,10 @@
 
     <!-- hardware/oplus -->
     <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-22.1" remote="inferno0230" />
+    
+    <!-- Benz vendor -->
+    <project path="vendor/oneplus/benz" name="android_vendor_oneplus_benz" revision="lineage-22.1" remote="crackedpotato" />
 
+    <!-- Common vendor -->
+    <project path="vendor/oneplus/sm7550-common" name="android_vendor_oneplus_sm7550-common" revision="lineage-22.1" remote="crackedpotato" />
 </manifest>
