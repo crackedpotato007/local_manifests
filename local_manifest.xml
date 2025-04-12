@@ -19,7 +19,7 @@
     <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-22.1" remote="crackedpotato" />
 
     <!-- kmod -->
-    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-22.1" remote="inferno0230" />
+    <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-22.2" remote="crackedpotato" />
 
     <!-- hardware/oplus -->
     <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-22.1" remote="crackedpotato" />
